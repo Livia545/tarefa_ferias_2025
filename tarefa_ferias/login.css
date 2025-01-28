@@ -1,0 +1,66 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eae6f8; /* Cor de fundo lilás claro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container do formulário */
+.container {
+    background-color: #ffffff; /* Fundo branco para destaque */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Título */
+.container h2 {
+    color: #9370db; /* Cor lilás médio para o título */
+    margin-bottom: 20px;
+}
+
+/* Estilos dos labels */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #6a5acd; /* Lilás mais escuro */
+    font-weight: bold;
+}
+
+/* Estilos dos inputs */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dcd6f7; /* Borda lilás clara */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #9370db; /* Fundo lilás médio */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #6a5acd; /* Lilás mais escuro no hover */
+}
+
+/* Mensagens de erro */
+.message.error {
+    color: #d32f2f; /* Vermelho para erro */
+    font-size: 0.9em;
+    margin-top: 10px;
+}
